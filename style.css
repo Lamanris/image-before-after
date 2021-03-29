@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+
+.box {
+    width: 600px;
+    height: 400px;
+    background-color: red;
+    margin:  50px auto;
+    position: relative;
+}
+.box img {
+    height: 100%;
+    object-fit: cover;
+    width: 600px;
+}
+.secondImg-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    border-right: 2px solid white;
+}
+.secondImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
